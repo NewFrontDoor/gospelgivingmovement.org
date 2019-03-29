@@ -115,14 +115,24 @@ a:hover, a:focus {color: #6C7A89;text-decoration: none;}
 #customnav .navbar-nav>li>a:hover, #darknav .navbar-nav>li>a:focus {color:#e40571;}
 #customnav.navbar-default .navbar-nav>.active>a, #darknav.navbar-default .navbar-nav>.active>a:focus, #darknav.navbar-default .navbar-nav>.active>a:hover {background:transparent;color:#6C7A89;}
 #customnav .navbar-brand {padding: 7px 15px;}
-#customnav.navbar {min-height:50px;}
+#customnav.navbar {min-height:85px; line-height:85px}
 #customnav.navbar-default .navbar-toggle:focus,#darknav.navbar-default .navbar-toggle:hover {background-color:transparent;}
 #customnav.navbar-default .navbar-toggle {border-color:transparent;}
-#customnav .navbar-toggle {padding: 14px 10px;}
+#customnav .navbar-toggle {padding: 24px 20px;}
 #customnav.navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
 @media (min-width: 768px) and  (max-width: 992px)  {
-#customnav .navbar-nav>li>a {padding:20px 10px;font-size:13px}
+#customnav .navbar-nav>li>a {padding:20px 10px;font-size:13px;}
+#customnav .navbar-brand {margin-left: -60px}
 }
+
+@media (min-width: 768px)  {
+  #customnav .navbar-right>li>a{height: 85px; line-height:55px;}
+  }
+
+
+
+
+
 
 /*********
 3.Video Background Header
@@ -767,17 +777,21 @@ section#about p,section#podcast p,section#mission-trips p,section#support p, sec
 
 section#testimony, section#events,section#get-in-touch, footer {background:#e2f4f9}
 section#testimony p, section#events p,section#get-in-touch p  {color: #23355b; font-size: 20px}
-.testimony-img img {max-height: 500px;display: inline-block}
+.testimony-img img {max-height: 400px;display: inline-block; border-radius: 50%}
+
+.img-center-border-50 img {max-height: 400px;display: inline-block; border-radius: 50%; margin-top: 30px}
 
 @media (min-width: 768px){
-  .testimony-img {}
   .hideNotXS {display: none;}
 }
 
 @media (max-width: 767px){
   .hideWhenXS {display: none;}
   .testimony-img img {display:inline-block; max-height: 300px; margin-bottom: 30px}
+  .img-center-border-50 img {display:inline-block; max-height: 350px; margin-bottom: 30px}
   .testimony-img {margin-top: 40px;}
 }
 
 .apple-logo img{max-height: 150px; display:inline-block; margin-top: 20px;}
+.ministryLogoContainer {width: 85% !important}
+.maxHeight350 img {max-height: 350px;display:inline-block; margin-top:20px}

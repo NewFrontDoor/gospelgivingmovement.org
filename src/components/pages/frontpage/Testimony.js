@@ -11,7 +11,7 @@ export default () => (
           <div className="col-sm-4 testimony-img text-center hideNotXS">
             <img src={NickAndJane} alt="" className="img img-responsive" />
           </div>
-          <div className="col-sm-8">
+          <div className="col-sm-8 mrgn-40-top">
             <p>
               “We are strong advocates for Christians being good stewards as well as being generous with finances. We understand God’s word teaches giving is a Christian duty; that finances are a blessing from God and He loves joyful givers with generous hearts. While we don’t see ourselves as gifted evangelists, we recognise that we can serve God by financially and prayerfully assisting other ministries as a means of glorifying God.
           </p>

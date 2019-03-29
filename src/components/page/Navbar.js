@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../images/logo/ggm-white.png';
+import logo from '../../images/logo/NavBarLogo.png';
 import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Scroll from 'react-scroll';
@@ -10,7 +10,7 @@ const TycNav = ({ isFrontPage }) => (
       <Navbar.Toggle>
       </Navbar.Toggle>
       <Navbar.Brand>
-        <a href="/"><img src={logo} className="img-responsive" alt="Gospel Giving Movement" width="36" height="37" /></a>
+        <a href="/"><img src={logo} className="img-responsive" alt="Gospel Giving Movement" width="199" height="72" /></a>
       </Navbar.Brand>
     </Navbar.Header>
     <Navbar.Collapse>
