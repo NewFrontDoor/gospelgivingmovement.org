@@ -12,7 +12,7 @@ export default () => (
                         Our monthly podcast shares ideas, inspiration and encouragement for gospel giving.
                     </p>
                     <div className="apple-logo text-center">
-                        <img src={AppleIcon} alt="" className="img img-responsive" />
+                        <a href="http://feeds.feedburner.com/GospelGivingMovement" target="_blank" rel="noreferrer noopener"><img src={AppleIcon} alt="" className="img img-responsive" /></a>
                     </div>
 
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import TomAndMag from '../../../images/TomAndMag.jpg';
+import Vimeo from '@u-wave/react-vimeo';
 
 
 export default () => (
@@ -23,6 +24,10 @@ export default () => (
             </p></div>
 
         </div>
+
+      </div>
+      <div className="vimeo-vid text-center ">
+        <Vimeo video={327195528} allowFullScreen={true} showTitle={false} showByline={false} showPortrait={false} sidedock={0} />
       </div>
     </div>
   </section>
