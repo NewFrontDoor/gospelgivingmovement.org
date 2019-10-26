@@ -11,6 +11,7 @@ import FrontPage from './components/pages/front-page';
 
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import podcastPage from './components/pages/podcast/podcast-page';
 
 class App extends Component {
   render() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path="/" component={Header} />
           <div id="content-container">
             <Route exact path="/" component={FrontPage} />
+            <Route exact path="/podcast" component={podcastPage} />
           </div>
           <Route exact path="/" component={FrontPageFooter} />
           <Route path="/:path" component={OtherPageFooter} />

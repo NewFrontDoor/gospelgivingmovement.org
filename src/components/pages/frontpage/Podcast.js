@@ -1,5 +1,6 @@
 import React from 'react';
 import AppleIcon from '../../../images/Apple_Podcast_Icon.png';
+import { Link } from 'react-router-dom';
 
 export default () => (
     <section id="podcast">
@@ -11,8 +12,9 @@ export default () => (
                     <p>
                         Our monthly podcast shares ideas, inspiration and encouragement for gospel giving.
                     </p>
-                    <div className="apple-logo text-center">
-                        <a href="http://feeds.feedburner.com/GospelGivingMovement" target="_blank" rel="noreferrer noopener"><img src={AppleIcon} alt="" className="img img-responsive" /></a>
+                    <div className="apple-logo">
+                        <Link to="/podcast"><img src={AppleIcon} alt="" className="podcast-img img img-responsive" /></Link>
+                        
                     </div>
 
 
