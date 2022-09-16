@@ -7,7 +7,7 @@
     "@u-wave/react-vimeo": "^0.6.0",
     "accounting": "^0.4.1",
     "babel-polyfill": "^6.23.0",
-    "bootstrap": "^3.4.0",
+    "bootstrap": "^3.4.1",
     "he": "^1.1.1",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
